@@ -52,8 +52,11 @@ body{
     width:80px;
 }
 @media screen and (max-width:998px){
+    body{
+        min-height:130vh;
+    }
     .card{
-        height:60vh;
+        height:70vh;
     }
 }
 /* Input and Form Controls */
