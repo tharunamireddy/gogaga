@@ -53,10 +53,10 @@ body{
 }
 @media screen and (max-width:998px){
     body{
-        min-height:130vh;
+        min-height:150vh;
     }
     .card{
-        height:70vh;
+        height:80vh;
     }
 }
 /* Input and Form Controls */
