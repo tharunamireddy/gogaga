@@ -1,0 +1,231 @@
+body{
+    background: url('https://res.cloudinary.com/dwch0edff/image/upload/v1723833429/reha-sakar-desert-scaled_fypzrx.jpg') no-repeat center center/cover;
+    min-height:100vh
+}
+/* Hero Section */
+.hero-section {
+    padding: 120px 0px 10px 0px;
+    padding-left: 5vw;
+    color: white;
+}
+
+.hero-card{
+    margin-left: 0;
+}
+
+.hero-section h1 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+
+.hero-section p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+/* Search Section */
+.form{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    width:95vw;
+    height:50vh;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.tabs{
+    margin: 2.5%;
+}
+.button{
+    padding: 10px 8px;
+    border-radius: 15px;
+    margin-right:10px;
+}
+
+/* Input and Form Controls */
+.input-box{
+    border:1px solid #232323;
+    text-align: left;
+    border-radius: 12px;
+    padding: 10px;
+    width:22vw;
+    height:100px;
+    margin-right:10px ;
+    
+}
+.input-box-2{
+    border:1px solid #232323;
+    text-align: left;
+    border-radius: 12px;
+    padding: 10px;
+    width:30vw;
+    height:100px;
+    margin-right:10px ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.search-box{
+    height:100px;
+}
+@media screen and (max-width:1180px){
+    .form{
+        flex-direction: column;
+    }
+ .input-box{
+    width:90vw;
+ }
+ .input-box-2{
+    width:90vw;
+ }
+}
+.margin-1{
+    margin-left:2.5%;
+}
+.margin-2{
+    margin-right:170px ;
+}
+.margin-3{
+    margin-right: 170px;
+}
+.checkin-box{
+    width:110px;
+}
+.days{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.form-control, .form-select {
+    border: none;
+    padding: 10px 0 15px 0;
+    border-radius: 5px;
+    font-weight: 300;
+}
+
+.form-control::placeholder {
+    font-weight: 300;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rating-button{
+    display: flex;
+    margin-left: 2.5%;
+}
+
+/* Navbar */
+.clr-1{
+    color:#1fa1a4;
+}
+.clr-2{
+    color:#72bb49;
+}
+.nav-item{
+    margin-right:25px ;
+}
+.border-bar{
+    border:1.5px solid #0c0b0b;
+    border-radius: 22px;
+    padding-left: 7px;
+    width:70px;
+}
+.bar-margin{
+    margin-right: 10px;
+}
+.navbar-light .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .hero-section h1 {
+        font-size: 40px;
+    }
+
+    .hero-section p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-section h1 {
+        font-size: 36px;
+    }
+
+    .hero-section p {
+        font-size: 16px;
+    }
+
+    .search-section {
+        margin-top: -30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 32px;
+    }
+
+    .hero-section p {
+        font-size: 14px;
+    }
+
+    .search-section {
+        margin-top: -20px;
+    }
+
+    .search-section .card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section h1 {
+        font-size: 28px;
+    }
+
+    .hero-section p {
+        font-size: 12px;
+    }
+
+    .search-section {
+        margin-top: -10px;
+    }
+
+    .search-section .card {
+        padding: 15px;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .btn-primary {
+        padding: 8px 15px;
+    }
+}
