@@ -48,7 +48,14 @@ body{
     border-radius: 15px;
     margin-right:10px;
 }
-
+.r-button{
+    width:80px;
+}
+@media screen and (max-width:998px){
+    .card{
+        height:60vh;
+    }
+}
 /* Input and Form Controls */
 .input-box{
     border:1px solid #232323;
@@ -72,19 +79,41 @@ body{
     justify-content: space-between;
     
 }
+.input-box-3{
+    border:1px solid #232323;
+    text-align: left;
+    border-radius: 12px;
+    padding: 10px;
+    width:22vw;
+    height:100px;
+    margin-right:10px ;
+    
+}
 .search-box{
     height:100px;
 }
-@media screen and (max-width:1180px){
+@media screen and (max-width:998px){
     .form{
         flex-direction: column;
     }
- .input-box{
-    width:90vw;
- }
- .input-box-2{
-    width:90vw;
- }
+    .input-box{
+        margin-right: 10px;
+    }
+    .input-box{
+    width:85vw;
+    margin-left: -10px;
+    }
+    .input-box-2{
+    width:85vw;
+    }
+    .input-box-3{
+        width:85vw
+    }
+    .search-box{
+    height:60px;
+    font-size: 22px;
+    padding-right: 12px;
+    }
 }
 .margin-1{
     margin-left:2.5%;
@@ -95,8 +124,20 @@ body{
 .margin-3{
     margin-right: 170px;
 }
+
 .checkin-box{
     width:110px;
+}
+@media screen and (max-width:998px){
+    .margin-1{
+    margin-right: 15px;
+    padding-right: 20px;
+    
+}
+.checkin-box{
+    font-size: 16px;
+    width:90px;
+}
 }
 .days{
     display: flex;
